@@ -338,7 +338,7 @@ hr{
     text-align: center;
 }
 /* Responsive site */
-@media (max-width: 900px) and (min-width: 481px)
+@media (max-width: 900px)
 {
     body
     {
