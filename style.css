@@ -337,3 +337,379 @@ hr{
     padding-top: 24px;
     text-align: center;
 }
+/* Responsive site */
+@media (max-width: 900px) and (min-width: 481px)
+{
+    body
+    {
+        /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    /* Nav bar */
+.innav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.innav p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.innav a{
+    text-align: right;
+    align-self: center;
+    align-content: end;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(231, 98, 40);
+    padding: 4px 16px;
+    font-size: 12px;
+    border-radius: 20px;
+    }
+    .innav a:hover{
+        background-color:  rgb(255, 123, 66);
+        color: black;
+    }
+
+    /* Hero section */
+.herosection h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+   
+}
+.subtexts
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.welcome{
+    font-size: 12px;
+    font-weight: 300px;
+    color: #545454;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.understand{
+   
+    font-size: 12px;
+    font-weight: 300px;
+    color: #545454;
+    padding-right: 0px;
+    text-align: left;
+}
+.box 
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px; 
+    justify-content: center;
+    
+}
+
+img
+{
+    height: 200px;
+    width: 200px;
+    padding-left: 6px;
+
+
+}
+.img2
+{
+    height: 250px;
+    width: 250px;
+  
+}
+.img1
+{
+    padding-top: 25px;
+   
+}
+.box .img3
+{
+    padding-top: 25px;
+}
+.button1 a{
+    color: white;
+    background-color: rgb(231, 98, 40);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 30px; 
+
+}
+.button1 a:hover{
+    background-color:  rgb(255, 123, 66);
+    color: black;
+}
+.button1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*second section*/
+.ideas
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.ideas .txts
+{
+    padding-left: 10px;
+    padding-right:10px;
+    align-self: center;
+    text-align: center;
+}
+.ideas img
+{
+  height: 250px;
+  width: 250px;
+  
+ 
+}
+.txts h2{
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+}
+.txts p{
+    font-size: 12px;
+    text-align: center;
+}
+hr{
+    background-color: rgb(231, 98, 40);
+    border: none;
+    height: 2px;
+    width: 80px;
+   
+}
+.imgs
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.imgs .img5
+{
+    padding-top:0px;
+    height: 250px;
+    width: 250px;
+    padding-left: 50px;
+}
+.imgs .img4
+{
+    padding-right: 60px;
+}
+/*third section*/
+.ideas .txts1
+{
+    padding-right: 60px;
+    text-align: center;
+    align-self: center;
+    text-align: right;
+}
+.imgs .img7
+{
+    padding-top:0px;
+    height: 250px;
+    width: 250px;
+    padding-right: 60px;
+}
+.imgs .img6
+{
+    padding-left: 60px;
+} 
+.txts1 h2 {
+  text-align: center;
+  font-size: 18px;
+}
+.txts1 p {
+    text-align: center;
+    font-size: 12px;
+}
+.thirdsection .ideas{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/*fourthsection*/
+.fourthsection
+{
+    padding-top: 24px;
+    padding-right: 46px;
+    padding-left: 46px;
+}
+.boxtwo
+{
+    background-color: rgb(231, 98, 40);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.boxtwo p{
+    text-align: center;
+    font-size: 12px;
+}
+.btn2
+{
+    align-self: center;
+    padding-top: 12px;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 12px;
+}
+.btn2 a:hover{
+    background-color:  rgb(255, 191, 164);
+    color: black;
+}
+.boxtwo a{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 8px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* Fifth section */
+.fifthsection
+{
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.pictures
+{
+    display: flex;
+    flex-direction: row;
+}
+.pictures img
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 160px;
+    margin-left: 10px;
+}
+.fifthsection p
+{
+    padding-top: 18px;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+/*What people are saying*/
+.peoplemain
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 24px;
+    align-items: center;
+}
+.monial1
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff5f2;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 400px;
+    height: 80px;
+   
+}
+.monial2
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    background-color:#fff5f2;
+    border-radius: 20px;
+    margin-right: 24px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+}
+.monial3
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#fff5f2;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-right: 24px;
+    width: 400px;
+    height: 80px;
+    padding-right: 10px;
+    margin-top: 20px;
+    
+}
+.monial1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.monial2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.monial3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.content
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.content p
+{
+  color: #545454;
+  font-size: 10px;
+}
+.content h3
+{
+    padding-bottom: -10px;
+    font-size: 14px;
+}
+.footer
+{
+    padding-top: 30px;
+}
+.underline
+{
+    background-color: #545454;
+    width: 1100px;
+    height: 1px;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.people h3{
+    padding-top: 24px;
+    text-align: center;
+}
+}
